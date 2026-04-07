@@ -17,7 +17,7 @@ classifiers = [
   "Operating System :: OS Independent",
 ]
 dependencies = [
-  "Django>=4.2,<5.0",
+  "Django>=5.0",
 ]
 
 [project.urls]
