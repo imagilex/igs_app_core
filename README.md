@@ -2,6 +2,8 @@
 
 Un paquete Django reusable que funciona como aplicación instalable con `pip install` desde GitHub.
 
+Compatible con Django 6.0+.
+
 ## Instalación
 
 Instala localmente para desarrollo:
