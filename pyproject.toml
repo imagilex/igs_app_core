@@ -21,8 +21,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/<tu_usuario>/igs_app_core"
-Repository = "https://github.com/<tu_usuario>/igs_app_core"
+Homepage = "https://github.com/imagilex/igs_app_core"
+Repository = "https://github.com/imagilex/igs_app_core"
 
 [tool.setuptools.packages.find]
 where = ["."]

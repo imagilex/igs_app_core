@@ -13,7 +13,7 @@ python -m pip install -e .
 Instala desde GitHub:
 
 ```bash
-python -m pip install git+https://github.com/<tu_usuario>/igs_app_core.git
+python -m pip install git+https://github.com/imagilex/igs_app_core.git
 ```
 
 ## Uso
