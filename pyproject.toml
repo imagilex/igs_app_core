@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "igs-app-core"
+version = "0.1.0"
+description = "Django reusable app para utilidades comunes de IGS."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Tu Nombre", email = "tu-email@example.com" }]
+classifiers = [
+  "Framework :: Django",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "Django>=4.2,<5.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/<tu_usuario>/igs_app_core"
+Repository = "https://github.com/<tu_usuario>/igs_app_core"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["igs_app_core*"]
+
+[tool.setuptools.package-data]
+"igs_app_core" = ["templates/**/*.html"]
