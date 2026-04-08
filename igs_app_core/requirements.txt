@@ -1,0 +1,7 @@
+crispy-bootstrap5==2026.3
+Django==6.0.4
+django-crispy-forms==2.6
+django-extensions==4.1
+PyMySQL==1.1.2
+PyYAML==6.0.3
+
